@@ -1,0 +1,44 @@
+.week-btn-container {
+
+    display: flex;
+    gap: 5px;
+}
+
+.week-btns {
+    border: none;
+    padding: 10px 29px 10px 29px;
+    font-size: "20px";
+    font-weight: 500;
+    border-radius: 9px;
+    background: #F2F2F2;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.week-btns:hover {
+    cursor: pointer;
+}
+
+.selected:hover {
+    cursor: pointer;
+}
+
+.selected {
+    border: none;
+    padding: 10px 29px 10px 29px;
+    font-size: "20px";
+    font-weight: 500;
+    border-radius: 9px;
+    background: #CFECFF;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.save-btn {
+    padding: 12px 83px 12px 83px;
+    border: none;
+    background: #004370;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 55px auto;
+}

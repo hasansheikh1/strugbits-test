@@ -1,0 +1,44 @@
+.top-cont {
+    width: 100%;
+    max-height: 280px;
+    min-height: 270px;
+    background: url('../../assets/pizza-background.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-head {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+
+}
+
+.sub-head {
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.week {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.meal-container {
+    width: 70%;
+    margin-top: 96px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
